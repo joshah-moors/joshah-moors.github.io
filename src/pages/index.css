@@ -1,0 +1,39 @@
+.home {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.home-pic {
+  height: 40vmin;
+  border-radius: 50%;
+}
+
+.home-name {
+  margin-top: 10vh;
+  font-size: calc(1.5em + 2vmin);
+}
+
+.home-linked {
+  font-size: 1.2em;
+}
+
+.home-a {
+  color: #1ad1ff;
+  text-decoration: none;
+}
+
+.home-a:active {
+  color: white;
+}
+
+.a-fa {
+  margin: 0em 1em;
+  color: white;
+  text-decoration: none;
+}
