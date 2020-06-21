@@ -6,6 +6,10 @@ import './index.css';
 import index from './index.jpg';
 
 class Splash extends Component {
+  scrollNext() {
+    let pageHeight = window.innerHeight;
+    window.scrollBy(0, pageHeight);
+  }
   render() {
     return (
       <div className="home">
@@ -25,6 +29,7 @@ class Splash extends Component {
             <i className="fa fa-youtube fa-2x"></i>
           </a>
         </p>
+        <button className="scroll-next" onClick={() => {this.scrollNext()}}>Next</button>
       </div>
     )
   }
@@ -32,11 +37,16 @@ class Splash extends Component {
 
 
 class Education extends Component {
+  scrollNext() {
+    let pageHeight = window.innerHeight;
+    window.scrollBy(0, pageHeight);
+  }
   render() {
     return (
       <div className="education">
         <h1>View my skills and get at me on <a href="https://www.linkedin.com/in/joshahmoors/"
                                                className="home-a">LinkedIn</a></h1>
+        <button className="scroll-next" onClick={() => {this.scrollNext()}}>Next</button>
       </div>
     )
   }
@@ -44,11 +54,16 @@ class Education extends Component {
 
 
 class Experience extends Component {
+  scrollNext() {
+    let pageHeight = window.innerHeight;
+    window.scrollBy(0, pageHeight);
+  }
   render() {
     return (
       <div className="experience">
         <h1>View my skills and get at me on <a href="https://www.linkedin.com/in/joshahmoors/"
                                                className="home-a">LinkedIn</a></h1>
+        <button className="scroll-next" onClick={() => {this.scrollNext()}}>Next</button>
       </div>
     )
   }
