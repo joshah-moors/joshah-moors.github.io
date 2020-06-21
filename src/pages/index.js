@@ -5,9 +5,7 @@ import './index.css';
 
 import index from './index.jpg';
 
-
-
-class Home extends Component {
+class Splash extends Component {
   render() {
     return (
       <div className="home">
@@ -27,6 +25,30 @@ class Home extends Component {
             <i className="fa fa-youtube fa-2x"></i>
           </a>
         </p>
+      </div>
+    )
+  }
+}
+
+
+class Experience extends Component {
+  render() {
+    return (
+      <div className="summary">
+        <h1>View my skills and get at me on <a href="https://www.linkedin.com/in/joshahmoors/"
+                                               className="home-a">LinkedIn</a></h1>
+      </div>
+    )
+  }
+}
+
+
+class Home extends Component {
+  render() {
+    return (
+      <div>
+        <Splash></Splash>
+        <Experience></Experience>
       </div>
     )
   }
