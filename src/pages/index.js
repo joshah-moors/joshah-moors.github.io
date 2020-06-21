@@ -31,12 +31,36 @@ class Splash extends Component {
 }
 
 
+class Education extends Component {
+  render() {
+    return (
+      <div className="education">
+        <h1>View my skills and get at me on <a href="https://www.linkedin.com/in/joshahmoors/"
+                                               className="home-a">LinkedIn</a></h1>
+      </div>
+    )
+  }
+}
+
+
 class Experience extends Component {
   render() {
     return (
-      <div className="summary">
+      <div className="experience">
         <h1>View my skills and get at me on <a href="https://www.linkedin.com/in/joshahmoors/"
                                                className="home-a">LinkedIn</a></h1>
+      </div>
+    )
+  }
+}
+
+
+class Creative extends Component {
+  render() {
+    return (
+      <div className="creative">
+        <h1>Watch educational <i>and entertaining</i> python content on <a href="https://www.youtube.com/channel/UCN8uj2L0xk8u2o_0bvprwtg/playlists"
+                                               className="creative-a">Youtube</a></h1>
       </div>
     )
   }
@@ -48,7 +72,9 @@ class Home extends Component {
     return (
       <div>
         <Splash></Splash>
+        <Education></Education>
         <Experience></Experience>
+        <Creative></Creative>
       </div>
     )
   }

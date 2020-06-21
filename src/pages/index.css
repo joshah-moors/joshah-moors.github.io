@@ -38,8 +38,8 @@
   text-decoration: none;
 }
 
-.summary {
-  background-color: #282c34;
+.education {
+  background-color: #cc5500;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -47,4 +47,31 @@
   justify-content: center;
   text-align: center;
   color: white;
+}
+
+.experience {
+  background-color: #154360;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.creative {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+.creative-a {
+  color: #c4302b;
+  text-decoration: none;
 }
