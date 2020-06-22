@@ -29,7 +29,7 @@ class Splash extends Component {
             <i className="fa fa-youtube fa-2x"></i>
           </a>
         </p>
-        <button className="scroll-next" onClick={() => {this.scrollNext()}}>Next</button>
+        {/* <button className="scroll-next" onClick={() => {this.scrollNext()}}>Next</button> */}
       </div>
     )
   }
@@ -63,7 +63,7 @@ class Experience extends Component {
       <div className="experience">
         <h1>View my skills and get at me on <a href="https://www.linkedin.com/in/joshahmoors/"
                                                className="home-a">LinkedIn</a></h1>
-        <button className="scroll-next" onClick={() => {this.scrollNext()}}>Next</button>
+        <button className="scroll-next" onClick={() => {this.scrollNext()}}>Next</button>s
       </div>
     )
   }
@@ -87,9 +87,9 @@ class Home extends Component {
     return (
       <div>
         <Splash></Splash>
-        <Education></Education>
+        {/* <Education></Education>
         <Experience></Experience>
-        <Creative></Creative>
+        <Creative></Creative> */}
       </div>
     )
   }
