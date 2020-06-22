@@ -35,7 +35,7 @@ class Splash extends Component {
   }
 }
 
-
+/*
 class Education extends Component {
   scrollNext() {
     let pageHeight = window.innerHeight;
@@ -80,6 +80,7 @@ class Creative extends Component {
     )
   }
 }
+*/
 
 
 class Home extends Component {
